@@ -93,9 +93,6 @@ Ako kartica nije pravilno formatirana, mogu se pojaviti problemi tokom snimanja 
 4. Formatiranje treba potvrditi klikom na „Format“.  
    Nakon završetka formatiranja, kartica je spremna za snimanje Linux image-a.
 
-**Napomena:**  
-Formatiranje SD kartice nije obavezno, ali je preporučljivo ukoliko se koriste starije kartice ili se javljaju problemi sa flešovanjem.
-
 ---
 
 **Tipične greške ako kartica nije formatirana:**
@@ -369,4 +366,5 @@ if __name__ == "__main__":
 - [LuckFox Toolkit & Driver Assistant](https://wiki.luckfox.com/en/tools.html)
 
 ---
+
 
