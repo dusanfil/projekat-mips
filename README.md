@@ -18,7 +18,7 @@ Ovaj projekat koristi GY-31 TCS3200 senzor boje i LuckFox Pico Mini Linux AI Boa
 |---------------------------------------------------|--------------------------------------------------|
 | GY-31 TCS3200 senzor boje                         | Modul za detekciju boje, [datasheet](https://www.mouser.com/datasheet/2/813/TCS3200-1125170.pdf) |
 | LuckFox Pico Mini AI Board                        | ARM Linux board, [AliExpress link](https://www.aliexpress.com/item/1005006175964407.html) [LuckFox Wiki](https://wiki.luckfox.com/) |
-| MicroSD kartica (min 8GB, preporučeno 16GB)       | Za OS i fajlove                                  |
+| MicroSD kartica (min 8GB, preporučeno 16GB)      | Za OS i fajlove                                  |
 | USB kabl (Type-C ili MicroUSB, zavisno od boarda) | Za napajanje i komunikaciju                      |
 | Žice za povezivanje (male "dupont" kablovi)       | Za spajanje senzora sa boardom                   |
 | Računar sa Windows OS                             | Priprema SD kartice, instalacija drajvera, SSH   |
@@ -172,7 +172,7 @@ U folderu projekta se nalaze svi potrebni alati i fajlovi za rad sa LuckFox Pico
 
 ## Tok pripreme SD kartice i povezivanja
 
-1. **Formatiranje SD kartice** (opciono, pomoću SDCardFormatterv5_WinEN)
+1. **Formatiranje SD kartice** (opciono pomoću SDCardFormatterv5_WinEN)
 2. **Flashovanje Linux image-a** pomoću SocToolKit-a i Luckfox image-a
 3. **Instalacija drajvera** – DriverAssitant_v5.13
 4. **Povezivanje board-a i SSH pristup** – USB, MobaXterm, prijava na board
@@ -366,5 +366,6 @@ if __name__ == "__main__":
 - [LuckFox Toolkit & Driver Assistant](https://wiki.luckfox.com/en/tools.html)
 
 ---
+
 
 
